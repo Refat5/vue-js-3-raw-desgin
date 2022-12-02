@@ -1,18 +1,18 @@
 <template>
-  <HelloWorldVue />
-  <HelloOne/>
-  <HelloOne/>
-  <HelloOne/>
+ <div class="center">
+
+     <HelloOne/>
+ </div>
+
 
 </template>
 
 <script>
-import HelloWorldVue from './components/HelloWorld.vue';
+
 import HelloOne from'./components/heeloOne.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorldVue,
     HelloOne
   }
 }
