@@ -2,6 +2,8 @@
  <div class="center">
 
      <HelloOne/>
+     <IfElse/>
+     <!-- <Class3/> -->
  </div>
 
 
@@ -9,11 +11,15 @@
 
 <script>
 
-import HelloOne from'./components/heeloOne.vue'
+import HelloOne from'./components/heeloOne.vue';
+import IfElse from './components/IfElse.vue';
+// import Class3 from'./components/Class3.vue';
 export default {
   name: 'App',
   components: {
-    HelloOne
+    HelloOne,
+    IfElse
+    // Class3
   }
 }
 </script>
